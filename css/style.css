@@ -106,6 +106,7 @@ a {
     transition: 0.3s;
     margin-top: 50px;
     margin-right: 50px;
+    border: none;
   }
 
   .home-page button:hover {
@@ -379,6 +380,8 @@ h1 {
     border-radius: 100%;
     padding: 20px;
     transition: 0.4s;
+    overflow: hidden;
+
 }
 
 .icons .fa:hover {
@@ -479,7 +482,8 @@ h1 {
     font-size: 30px;
     border: 2px solid #17242d;
     background-color: wheat;
-    padding: 7px;
+    padding: 10px;
+    margin-left: 10px;
     border-radius: 100%;
     color: blue;
     cursor: pointer;
@@ -487,7 +491,7 @@ h1 {
 }
 
 .footer .fa:hover {
-    padding: 10px;
+    transform: scale(1.2);
 }
 
 .footer .info {
